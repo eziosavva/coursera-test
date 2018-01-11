@@ -11,4 +11,4 @@ angular.module('myFirstApp', [])
 
   };
 }];
-})(window.angular);
+)(window.angular);
