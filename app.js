@@ -3,12 +3,13 @@
 
 angular.module('myFirstApp', [])
 
-.controller('MyFirstController', function ($scope) {
-  $scope.name = "Ezio";
-  $scope.sayHello = function () {
-    return "Hello Coursera";
+.controller('MyFirstController', ['$scope' function($scope)  {
+  $scope.username = "Ezio";
 
-};
+  $scope.sayHello = function () {
+    $scope.greeting = 'Hello ' + $scope.username + '!';
+    
+  };
 });
 
 })();
