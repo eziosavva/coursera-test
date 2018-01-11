@@ -8,8 +8,6 @@ angular.module('myFirstApp', [])
 
   $scope.sayHello = function () {
     $scope.greeting = 'Hello ' + $scope.username + '!';
-    
-  };
-});
 
-})();
+  };
+}]);
